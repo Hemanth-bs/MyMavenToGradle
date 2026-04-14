@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout SCM') {
             steps {
-                git 'https://github.com/Hemanth-bs/GradleSeleniumApp.git'
+                git 'https://github.com/Hemanth-bs/MyMavenToGradle.git'
             }
         }
 
